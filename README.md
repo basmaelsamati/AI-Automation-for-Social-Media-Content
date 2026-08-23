@@ -69,24 +69,3 @@ Telegram Trigger (button clicks)
 4. **Schedule** — set the `Schedule Trigger` node to your preferred daily posting time.
 5. **Telegram chat ID** — replace the `chatId` values in the Telegram nodes with your own chat ID.
 6. **Activate** the workflow.
-
-## Current Status / Roadmap
-
-- [x] Daily AI post generation
-- [x] AI image generation per post
-- [x] Telegram-based review & approval flow
-- [x] AI-assisted post revision (shorter / more professional / more engaging / change topic)
-- [ ] Facebook auto-publishing (in progress)
-- [ ] Instagram auto-publishing
-- [ ] X (Twitter) auto-publishing
-- [ ] LinkedIn auto-publishing
-- [ ] Duplicate-content check using post history before generation
-
-## Notes
-
-- The AI is instructed never to make unsupported medical claims, give diagnoses, or personalized medical advice — all generated content is general health/app-related messaging only.
-- Generated images avoid any text, logos, or watermarks by design, so they can be reused across platforms without additional editing.
-
-## License
-
-MIT
